@@ -11,16 +11,17 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ## [Content](#content)
 
-<table>
-<tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
-<tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
+* [1. Survey Papers](#1-survey-papers)
+* [2. Deep TPP](#2-modeling-papers)
+    * [2.1 RNN and Transformer](#21-rnn-and-transformer)
+    * [2.2 ODE and SDE](#22-ode-and-sde)
+* [3. Traditional TPP](#3-tradtional-tpp)
+* [4. Applications](#4-applications)
 
-</table>
 
 
 
-
-### [Survey Papers](#content)
+## 1. Survey Papers
 
 1. **A review of self-exciting spatio-temporal point processes and their applications** JSTOR, 2018. [journal](https://www.jstor.org/stable/26770999?casa_token=Y49nXOAn5l8AAAAA:NmosnJySOB8wHG2r_6tyieWoaHhNdlZ2rI6q0pBkNtd5G_B5h45AwxL58fxLZZiqVWwSOKk5n0ufbZvwuaJ-QITKULDwRf6MQu53ED1p5r5HncxVSbCN)
 
@@ -34,3 +35,23 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Shchur, Oleksandr, Ali Caner Türkmen, Tim Januschowski, and Stephan Günnemann*
 
+## 2. Deep TPP
+
+### 2.1 RNN and Transformer
+
+### 2.2 ODE and SDE
+1. **Neural Spatio-Temporal Point Processes** ICLR, 2021. [paper](https://arxiv.org/pdf/2011.04583.pdf), [code](https://github.com/facebookresearch/neural_stpp)
+
+    *Ricky T. Q. Chen, Brandon Amos, Maximilian Nickel*
+
+2. **Latent ODEs for Irregularly-Sampled Time Series** NeurIPS, 2019. [paper](https://papers.nips.cc/paper/2019/file/42a6845a557bef704ad8ac9cb4461d43-Paper.pdf), [code](https://github.com/YuliaRubanova/latent_ode) 
+
+    *Yulia Rubanova, Ricky T. Q. Chen, David Duvenaud*
+
+3. **Neural Jump Stochastic Differential Equations** NeurIPS, 2019. [paper](https://arxiv.org/pdf/1905.10403.pdf), [code](https://github.com/000Justin000/torchdiffeq/tree/jj585)
+
+    *Junteng Jia, Austin R. Benson*
+
+4. **Hawkes Processes with Stochastic Excitations**  ICML, 2016. [paper](https://arxiv.org/pdf/1609.06831.pdf)
+
+    *Young Lee, Kar Wai Lim, Cheng Soon Ong*
